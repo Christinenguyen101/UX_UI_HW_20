@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+  
+    <link rel="stylesheet" href="css/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+
+    <div id="navbar">
+        <div class="navbar-left-items">
+            <img src="/logo.png" class="nav-logo" />
+        </div>
+
+        <div class="navbar-right-items">
+
+            <ul>
+                <a>
+                    <li> <img src="image/ham-bar.png" class="nav-ham"></li>
+                </a>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <div class="sidebar is-hidden">
+
+        <ul>
+            <li><a> About Me</a></li>
+            <li><a> My Projects</a></li>
+            <li><a> Contact Infomation</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm">
+
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+
+
+                        <h3 class="pink-box-title">
+                            My Projects
+                        </h3>
+
+                        <div class="pink-box">
+                            <img src="image/stars.png" />
+                            <p>U.S. Department of the Interior</p> </a>
+                        </div>
+
+                        <div class="pink-box">
+                            <img src="image/stars.png" />
+                            <p>Starbucks App</p>
+                            
+                        </div>
+
+                        
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-2">
+
+                                    <div class="little-pink-box">
+                                        <p>icon</p>
+                                    </div>
+
+                                    <div class="little-pink-box">
+                                        <p>icon</p>
+                                    </div>
+
+                                    <div class="little-pink-box">
+                                        <p>icon</p>
+                                    </div>
+                                    <div class="little-pink-box">
+                                        <p>icon</p>
+                                    </div>
+
+
+
+                                    <div class="little-pink-box">
+                                        <p>icon</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-10">
+
+                                    <div class="pink-box-project">
+                                        <p>Discriptions</p>
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+           
+
+
+                <div class="pink-box">
+                    <img src="image/stars.png" />
+                    <p>DisABILITYsa</p>
+                </div>
+
+
+
+
+
+                <footer>
+                    <ul>
+                        <li>
+                            Social Media | Privacy Policy | @Copyright 2020
+                        </li>
+                    </ul>
+
+                </footer>
+
+                <script>
+                    $(document).ready(function () {
+
+                        // Check for click events on the navbar burger icon
+                        $(".nav-ham").click(function () {
+
+                            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                            if ($(".sidebar").hasClass("is-hidden")) {
+                                $(".sidebar").removeClass("is-hidden");
+                                $(".sidebar").addClass("is-active");
+                            }
+                            else if ($(".sidebar").hasClass("is-active")) {
+                                $(".sidebar").removeClass("is-active");
+                                $(".sidebar").addClass("is-hidden");
+                            }
+
+                        });
+
+                    });
+                </script>
+
+
+
+
+
+
+</body>
+
+</html>
